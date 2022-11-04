@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 30px 48px 28px;
+}
+
+.logo_1 {
+  font-weight: 700;
+  color: rgb(96, 112, 255);
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.main_btn {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.main {
+  width: 24px;
+  height: 24px;
+}
+
+.title {
+  width: 100%;
+  line-height: 55px;
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(23, 43, 77);
+  width: 400px;
+}
+
+.main > img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/main-mobile.png);
+  /* background-position: center; */
+  /* background-size: cover; */
+  width: 375px;
+  height: 660px;
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 90px;
+  margin: 0 24px 12px 0;
+  background-position: 0.5em -2em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.content {
+  padding: 12px;
+  margin: 12px;
+}
+
+.con {
+  color: rgb(127, 140, 255);
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+  list-style-type: none;
+  display: flex;
+  gap: 23px;
+  margin-left: -38px;
+}
